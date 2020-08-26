@@ -1,6 +1,7 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
-$(function() {
-  $(".change-eat").on("click", function(event) {
+$(document).on("click", ".change-eat", function(event) {
+  event.preventDefault();
+  console.log("Button Clicked")
     var id = $(this).data("id");
     var newEat = 1;
 
@@ -42,4 +43,3 @@ $(function() {
       }
     );
   });
-});
