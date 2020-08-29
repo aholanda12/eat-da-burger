@@ -22,9 +22,10 @@ $(document).on("click", ".change-eat", function(event) {
     );
   });
 
-  $(".create-form").on("submit", function(event) {
+  $(document).on("submit", ".create-form", function(event) {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
+    console.log("Button Clicked")
 
     var newBurger = {
       name: $("#burg").val().trim(),
