@@ -1,3 +1,4 @@
+/* Main body and text elements */
 body {
   background-color: #ffc107 !important;
 }
@@ -30,6 +31,7 @@ li {
   margin: 5px;
 }
 
+/* Individual elements */
 .burger {
   height: 200px;
   width: 250px;
