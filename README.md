@@ -2,8 +2,8 @@
 # Eat-Da-Burger!
 
 ## Description
-![Screenshot](https://github.com/aholanda12/express-note-taker/blob/master/public/assets/images/screenshot.PNG)
-This application allows users to create and save notes to themselves. A user will input a note, hit save, and it will be rendered on the side bar. From there, a user can click on the note to see it again or keep creating new notes. Should the user need to delete a note, they can press the delete button and it will be removed from the side bar. 
+![Screenshot](https://github.com/aholanda12/eat-da-burger/blob/master/public/assets/images/screenshot.PNG)
+This application allows users to input the names of burgers they desire. From there, the burger will be rendered in the "Pick up Order" section with a "DEVOUR IT" button. If the button is pressed, the burger name will be moved to the "Eaten" section. 
 
 ## Table of Contents
 
@@ -20,11 +20,11 @@ This application allows users to create and save notes to themselves. A user wil
 * [Questions](#Questions)
 
 ## Installation
-Install express in your terminal. Then type in 'node server.js'. Open your local host to see the app.
-Additionally, [here is a link to the deployed Heroku app.](https://safe-thicket-42616.herokuapp.com/notes)
+Install express, express-handlebars, and mysql in your terminal. Then type in 'node server.js'. Open your local host to see the app.
+Additionally, [here is a link to the deployed Heroku app.](https://pure-thicket-45275.herokuapp.com/)
 
 ## Usage
-This app allows you to make notes and keep track of them.
+This app allows you to to fictionalize creating and eating burgers.
 
 ## License
 MIT
